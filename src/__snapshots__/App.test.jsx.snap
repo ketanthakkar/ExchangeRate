@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Snapshot renders 1`] = `
+<section
+  className="main-container"
+>
+  <div
+    className="exchange-container"
+  >
+    <h2>
+      Exchange
+    </h2>
+    <div
+      className="form-container"
+    >
+      <form>
+        <div
+          className="currency-container"
+        >
+          <select
+            name="baseCurrency"
+            onChange={[Function]}
+            value="USD"
+          >
+            <option>
+              USD
+            </option>
+          </select>
+          <input
+            className="amount-text"
+            onChange={[Function]}
+            onInput={[Function]}
+            placeholder="0.00"
+            type="number"
+            value={0}
+          />
+        </div>
+        <div
+          className="rate-container"
+        >
+          <span
+            className="rates"
+          >
+            1 
+            USD
+             = 
+             
+            EUR
+          </span>
+        </div>
+        <div
+          className="currency-container target-container"
+        >
+          <select
+            name="targetCurrency"
+            onChange={[Function]}
+            value="EUR"
+          />
+          <input
+            className="amount-text"
+            onChange={[Function]}
+            onInput={[Function]}
+            placeholder="0.00"
+            type="number"
+            value={0}
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+`;

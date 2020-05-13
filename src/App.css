@@ -1,0 +1,65 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.exchange-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.currency-container {
+    width: 100%;
+    display: flex;
+}
+
+.rate-container {
+    text-align: center;
+    color: #FFF;
+    margin: 10px 0;
+}
+ 
+.rates {
+    background: #fff;
+    color: #0D7DBE;
+    padding: 5px;
+    border-radius: 35px;
+    border: 1px solid #CCC;
+}
+
+select, input {
+    height: auto;
+    background: #fff;
+    padding: 20px 5px;
+    color: #2E4369;
+    border: 0;
+}
+
+select {
+    width: 30%;
+    background-color: #476AAD;
+    color: #FFF;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+input {
+    width: 70%;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.amount-text {
+    text-align: right;
+    font-size: 1.5rem;
+}
